@@ -5,6 +5,15 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        /**
+         * Denna switch agerar som programmets kärna.
+         * Användaren får skriva in siffrorna 1,2 eller 3 för att göra 1 utav 3 val.
+         * 1. Läsa inlägg
+         * 2. För att göra nya inlögg
+         * 3. Stänga ner programmet.
+         * Skulle användaren göra ett input som är olika ifårn 1,2 eller 3 så begärs hen att göra ett nytt input.
+         */
+
         InputOfDataAndPresentData.getInformationFromJsonFile();
         var inputFromUser = new Scanner(System.in);
         int makeOptionFromMenu;
@@ -35,6 +44,13 @@ public class Main {
         }
 
     }
+
+    /**
+     * Denna metod tillkallas ifrån main.
+     * Syftet är att man skall hindra användaren ifrån att göra ett input som in passar med de val som
+     * finns i programmets meny.
+     * @param checkInput
+     */
 
     public static void preventUserFromEnteringCharValue(Scanner checkInput) {
 

@@ -23,5 +23,10 @@
     "diaryPost": "forced story",
     "dateOfPost": "2022-10-15",
     "titleOfPost": "forced title"
+  },
+  {
+    "diaryPost": "LAST",
+    "dateOfPost": "2022-10-29",
+    "titleOfPost": "LAST "
   }
 ]
